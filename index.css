@@ -1,3 +1,5 @@
+/* Accordion */
+
 .footer-container {
     background-color: #000;
     color: #fff;
@@ -45,4 +47,26 @@
     .footer-listitem-header {
         font-size: 0.7rem;
     }
+}
+
+/* Stopwatch */
+.time{
+    margin-top: 300px;
+}
+.digits{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn{
+    padding: 5px;
+    margin: 5px;
 }

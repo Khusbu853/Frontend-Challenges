@@ -2949,16 +2949,18 @@ var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
 var _accordion = require("./components/Accordion");
 var _accordionDefault = parcelHelpers.interopDefault(_accordion);
+var _stopwatch = require("./components/Stopwatch");
+var _stopwatchDefault = parcelHelpers.interopDefault(_stopwatch);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _accordionDefault.default), {}, void 0, false, {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _stopwatchDefault.default), {}, void 0, false, {
             fileName: "src/App.js",
-            lineNumber: 8,
+            lineNumber: 10,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/App.js",
-        lineNumber: 7,
+        lineNumber: 8,
         columnNumber: 5
     }, undefined);
 };
@@ -2966,7 +2968,7 @@ _c = App;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 17,
+    lineNumber: 19,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -2977,7 +2979,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Accordion":"cDAhI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/Accordion":"cDAhI","./components/Stopwatch":"fbT1F","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27261,7 +27263,29 @@ $RefreshReg$(_c, "Accordion");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./data":"jCQHp"}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./data":"jCQHp","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jCQHp":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+const questions = [
+    {
+        id: 1,
+        title: "Do I have to allow the use of cookies?",
+        info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art."
+    },
+    {
+        id: 2,
+        title: "How do I change my My Page password?",
+        info: "Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse."
+    },
+    {
+        id: 3,
+        title: "What is BankID?",
+        info: "Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial."
+    }
+];
+exports.default = questions;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27429,28 +27453,128 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"7422ead32dcc1e6b":"786KC"}],"jCQHp":[function(require,module,exports) {
+},{"7422ead32dcc1e6b":"786KC"}],"fbT1F":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$9204 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$9204.prelude(module);
+
+try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-const questions = [
-    {
-        id: 1,
-        title: "Do I have to allow the use of cookies?",
-        info: "Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art."
-    },
-    {
-        id: 2,
-        title: "How do I change my My Page password?",
-        info: "Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse."
-    },
-    {
-        id: 3,
-        title: "What is BankID?",
-        info: "Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial."
-    }
-];
-exports.default = questions;
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _s = $RefreshSig$();
+const Stopwatch = ()=>{
+    _s();
+    const [time, setTime] = (0, _react.useState)(0);
+    const [running, setRunning] = (0, _react.useState)(false);
+    (0, _react.useEffect)(()=>{
+        let timer;
+        if (running) timer = setInterval(()=>{
+            setTime((prevTime)=>prevTime + 10);
+        }, 10);
+        else clearInterval(timer);
+        return ()=>clearInterval(timer);
+    }, [
+        running
+    ]);
+    let hours = ("0" + Math.floor(time / 60000 % 60)).slice(-2);
+    let minutes = ("0" + Math.floor(time / 1000 % 60)).slice(-2);
+    let seconds = ("0" + time / 10 % 100).slice(-2);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "time",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "digits",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                        children: [
+                            hours,
+                            ":"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Stopwatch.js",
+                        lineNumber: 28,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                        children: [
+                            minutes,
+                            ":"
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Stopwatch.js",
+                        lineNumber: 29,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                        children: seconds
+                    }, void 0, false, {
+                        fileName: "src/components/Stopwatch.js",
+                        lineNumber: 30,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Stopwatch.js",
+                lineNumber: 27,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "button",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "btn",
+                        onClick: ()=>setRunning(true),
+                        children: "Start"
+                    }, void 0, false, {
+                        fileName: "src/components/Stopwatch.js",
+                        lineNumber: 34,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "btn",
+                        onClick: ()=>setRunning(false),
+                        children: "Stop"
+                    }, void 0, false, {
+                        fileName: "src/components/Stopwatch.js",
+                        lineNumber: 35,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        className: "btn",
+                        onClick: ()=>setTime(0),
+                        children: "Reset"
+                    }, void 0, false, {
+                        fileName: "src/components/Stopwatch.js",
+                        lineNumber: 36,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Stopwatch.js",
+                lineNumber: 33,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Stopwatch.js",
+        lineNumber: 26,
+        columnNumber: 5
+    }, undefined);
+};
+_s(Stopwatch, "IfGJxOGKgLeAwp7t6UKjY06PfN8=");
+_c = Stopwatch;
+exports.default = Stopwatch;
+var _c;
+$RefreshReg$(_c, "Stopwatch");
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["hcwwj","1xC6H","2kQhy"], "2kQhy", "parcelRequireb175")
+  $parcel$ReactRefreshHelpers$9204.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["hcwwj","1xC6H","2kQhy"], "2kQhy", "parcelRequireb175")
 
 //# sourceMappingURL=index.7271efb6.js.map

@@ -45,4 +45,25 @@
   }
 }
 
+.time {
+  margin-top: 300px;
+}
+
+.digits {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.btn {
+  margin: 5px;
+  padding: 5px;
+}
+
 /*# sourceMappingURL=index.9e4c6fd2.css.map */
