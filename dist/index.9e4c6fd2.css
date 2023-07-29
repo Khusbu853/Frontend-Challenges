@@ -66,4 +66,21 @@
   padding: 5px;
 }
 
+.counter {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.count {
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn_count {
+  margin: 5px;
+  padding: 5px 20px;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=index.9e4c6fd2.css.map */
