@@ -1,0 +1,29 @@
+.heading{
+  text-align: center;
+}
+
+
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+
+.card{
+  width: 300px;
+  padding: 35px;
+  margin: 20px;
+  border: 1px solid grey;
+  background-color: grey
+
+}
+.title{
+  text-align: center;
+  color: white;
+}
+
+.load{
+  text-align: center;
+}
