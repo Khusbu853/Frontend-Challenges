@@ -88,3 +88,21 @@
     padding: 5px 20px;
     font-weight: bold;
 }
+
+
+
+
+/* Star Rating */
+.star-container {
+    text-align: center;
+    margin-top: 300px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.star {
+    cursor: pointer;
+    transition: color 200ms;
+}

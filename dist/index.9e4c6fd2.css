@@ -83,4 +83,18 @@
   font-weight: bold;
 }
 
+.star-container {
+  text-align: center;
+  margin-top: 300px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+  transition: color .2s;
+}
+
 /*# sourceMappingURL=index.9e4c6fd2.css.map */
