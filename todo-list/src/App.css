@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.todo{
+  margin-top: 200px;
+}
+
+.input{
+  padding: 10px 20px;
+}
+
+input[type="text"] {
+  font-size: 20px
+}
+
+.btn{
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.item-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid grey;
+  padding: 20px;
+  width: 31%;
+  margin: auto;
+}
+.btn-div{
+  display: flex;
+}
+
+.edit_btn{
+  margin: 0px 10px;
+  padding: 5px 15px;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+.delete_btn{
+  margin: 0px 10px;
+  padding: 5px 15px;
+  font-size: 15px;
+  cursor: pointer;
+
+}
