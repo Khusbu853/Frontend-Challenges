@@ -1,0 +1,52 @@
+.file{
+  margin-top: 5px;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.folder {
+  margin-top: 6px;
+  background-color: rgb(233, 233, 233);
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+  width: 400px;
+  cursor: pointer;
+}
+.folder > span {
+  margin: 0 5px 2px 0;
+}
+
+.folder > div > button {
+  font-size: 15px;
+  background-color: white;
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.inputContainer > span {
+  margin-top: 5px;
+}
+
+.inp {
+  margin: 6px 0 0 0;
+  padding: 5px;
+  display: flex;
+  border: 1px solid lightgray;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.file-container{
+  display: flex;
+  padding: 5px;
+  margin: 6px;
+}
