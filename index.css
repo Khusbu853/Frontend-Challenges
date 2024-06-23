@@ -87,6 +87,7 @@
     margin: 5px;
     padding: 5px 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -105,4 +106,27 @@ input[type="radio"] {
 .star {
     cursor: pointer;
     transition: color 200ms;
+}
+
+
+
+/* ImageCarousel */
+.carousel-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.carousel-container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.carousel-btn{
+    background: none;
+    border: none;
+    padding: 5px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
 }
