@@ -29,6 +29,7 @@
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
+  width: 150px;
 }
 .btn{
   cursor: pointer;
@@ -36,6 +37,16 @@
 .btn-selected {
   background: black;
   color: white;
+}
+
+.searchDiv {
+  margin: 20px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 50px;
 }
 
 
